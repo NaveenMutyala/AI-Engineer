@@ -1,0 +1,96 @@
+computer vision model families
+
+1. Convolutional Neural Networks -
+    key benefits of CNNs: Organizing the elements in an image based on importance and depth
+
+2.Transformers - Apply transformer architecture to images for purpose of computer vision
+3. Generative Adversarial network (GANs) - primarily create lifelike images.
+4. U-Net = Efficiently scaling neural network dimensions and utilizing computational resources
+
+Generative AI
+Techniques to achieve Gen AI:
+1. Large Language models
+2. Diffusion Models
+3. Generative Adverserial Networks
+4. Neural Radiance fields
+5.Hybrid models
+
+
+LLMs are foundational models of chatgpt - trained on vast text volumes -
+
+Dall-E - advanced al tools used for generationg images and videos
+
+GANs - Generating text and images  - Generator - Judge
+
+Neural Radiance - specialized for 3d modelings
+
+Hybrid modes - LLMS + GANs
+
+
+Vector Embedding
+
+store and retrieve data based on semantic similarity
+
+word associations
+context is crucial
+
+Language models are probabalistic - predicts next word
+
+Models - 1. Masked LMs, 2. AutoRegressive LMs
+
+1. Masked LMs - Guess the missing word regardless of its position in a sentence
+
+2. AutoRegressive LMs - Predict the next worrd eg: OPEN AI
+
+
+Self Supervised Learning
+1. Analyzes text datasets 
+2. Generates labels
+3. Predicts content
+4. Uses contextual cues from surrounding words
+
+
+Four Core LM Techniques
+1. N-grams - Estimate a word's probability based on the preceding n-1 words
+
+2. Recurrent Neural Networks - retain information from prior steps (vanishing gradient Issue)
+
+3. Long short-term memory (LSTMs) - Lstm networds choose which info to retain and which to discard 
+  keep imp long-term info forgets irrelevant data
+
+4. Transformers and the Attention Mechanism - asses th significance of words or parts of words(tokens) in an input sequence to generate an output
+
+
+Different stages of builiding an LLM
+
+->Model Design 
+  -> Dataset Engineering 
+    -> Pretraining 
+      -> preliminary Evaluation 
+        -> post-training 
+          -> fine tuning 
+            -> final Testing and Evaluation
+
+Prompt engineering - Retrieval Augmented Generation(RAG) - Fine Tuning
+All three techniques enhance an LLMs response accuracy and effectiveness in specific scenarios by targetting different aspects of AI functionality
+
+PE - explain how to behave
+    - No weight change 
+    - give verbal instructions
+    - Easy - doesnt change it adapts
+RAG - expand context by attaching a library
+    - no weight change 
+    - attach a database
+    - Medium
+Fine-Tuning - Additional training for an already trained model
+      - weight change
+      - extra data
+      - model changes - can be expensive
+
+Foundation Models
+
+
+ 
+
+
+
