@@ -88,9 +88,23 @@ Fine-Tuning - Additional training for an already trained model
       - model changes - can be expensive
 
 Foundation Models
+ chatgpt, claude, meta-LLama
 
 
- 
+AI strategist - Data scientist with AI, ML background with hgih 
+AI Developer -
+    - Builds foudation AI models
+    - reasearcing and trying to study ways to push boundaries of AI
+    - Ai developers must meticulosly ensure accuracy during the critical time
+
+AI Engineer 
+    - Builds applications on top of foundation models
+    - requires strong coding skills o python, pandas, numpy
+    - Hugging Face, LangChain 
+    - Vector databases eg: Pinecone
+    - solid understanding of LLMs and NLP
+    - ML + AI + SDE
+    
 
 
 
